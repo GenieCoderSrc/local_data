@@ -1,7 +1,10 @@
 name: local_data
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "Local Data is a Dart package that provides an easy-to-use abstraction for local data storage. It supports multiple storage backends, including Hive, SharedPreferences, and HydratedBloc, allowing developers to store and manage data efficiently. With support for various data types, including strings, integers, booleans, and maps, Local Data simplifies persistent storage in Flutter applications."
+version: 0.0.2
+homepage: https://github.com/GenieCoderSrc/local_data
+repository: https://github.com/GenieCoderSrc/local_data
+issue_tracker: https://github.com/GenieCoderSrc/local_data/issues
+
 
 environment:
   sdk: ^3.6.0
@@ -14,8 +17,8 @@ dependencies:
   shared_preferences: ^2.4.0
   hive: ^2.2.3
   hydrated_bloc: ^10.0.0
-  global:
-    path: ../global
+  global: ^0.0.2
+
 
 
 dev_dependencies:
@@ -28,6 +31,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+example:
+  path: example
 
   # To add assets to your package, add an assets section, like this:
   # assets:
